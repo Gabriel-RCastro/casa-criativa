@@ -1,0 +1,18 @@
+{% for idea in ideias %}
+    <div class="idea">
+        <img 
+        src="{{ idea.image }}"
+        alt="{{ idea.title }}">
+        
+        <div class="content">
+            <h3>{{ idea.title }}</h3>
+            <p>{{ idea.category}}</p>
+            <div class="description">
+                {{ idea.description }}
+            </div>
+            <a href="{{ idea.link }}" target="_blank">Ir para a ideia</a>
+        <form action="/ideias" method="POST" onsubmit="{{idea.id}}">
+        </div>
+    </form>
+    </div>
+{% endfor %}

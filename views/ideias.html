@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% set bodyId = "page-ideias" %}
+
+{% block title %}
+    <title>Ideias - Casa Criativa</title>
+{% endblock %}
+
+{% block content %}
+<header>
+    <a href="/">
+        <img src="/logo.png" alt="Imagem da logo">
+    </a>
+    <nav>
+        <li>
+            <a href="/">Início</a>
+        </li>
+        <li>
+            <a class="button" href="#" onclick="onOff()">Nova Ideia</a>
+        </li>
+    </nav>
+</header>
+
+<section id="title">
+    <p>em exibição</p>
+    <h1>Ideias</h1>
+</section>
+
+<main>
+    <section>
+        {% include "all_ideias.html" %}
+    </section>
+</main>
+
+<footer>
+    Com ❤️ <a href="https://github.com/Gabriel-RCastro" target="_blank">Gabriel Castro</a>
+</footer>
+{% endblock %}
