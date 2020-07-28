@@ -11,9 +11,9 @@
 </h2>
 
 <ul>
-  <li> <strong> HTML5 ; </strong> </li>
-  <li> <strong> CSS3 ; </strong> </li>
-  <li> <strong> JavaScript . </strong> </li>
+  <li> <strong> HTML5; </strong> </li>
+  <li> <strong> CSS3; </strong> </li>
+  <li> <strong> JavaScript. </strong> </li>
 </ul>
 
 <h2>
@@ -21,8 +21,8 @@
 </h2>
 
 <ul>
-  <li> <strong> Node.js ; </strong> </li>
-  <li> <strong> SQLite 3 . </strong> </li>
+  <li> <strong> Node.js; </strong> </li>
+  <li> <strong> SQLite 3. </strong> </li>
 </ul>
 
 <h2>
@@ -30,10 +30,10 @@
 </h2>
 
 <ul>
-  <li> <strong> Express ; </strong> </li>
-  <li> <strong> Nodemon ; </strong> </li>
-  <li> <strong> Nunjucks ; </strong> </li>
-  <li> <strong> Sqlite3 . </strong> </li>
+  <li> <strong> Express; </strong> </li>
+  <li> <strong> Nodemon; </strong> </li>
+  <li> <strong> Nunjucks; </strong> </li>
+  <li> <strong> Sqlite3. </strong> </li>
 </ul>
 
 ---
